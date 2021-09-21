@@ -5,4 +5,53 @@
 body {
     background: blanchedalmond;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 24000px;
 }
+
+#business-card {
+    border: 2px solid black;
+    padding: 20px;
+    width: 500px;
+    position: relative;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+h1 {
+    color: red;
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+
+.important-text {
+    color: green;
+}
+
+img {
+    padding: 10px;
+    background: plum;
+    border: 2px dashed black;
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 75px;
+}
+
+@media (max-width: 480px) {
+    #business-card {
+        background: blue;
+    }
+}
+
+@media (max-width: 720px) {
+    #business-card {
+        background: red;
+    }
+}
+
+/* .important-text {
+    background: purple;
+} */
