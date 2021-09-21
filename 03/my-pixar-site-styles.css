@@ -22,6 +22,19 @@ header {
     margin: 0 auto;
 }
 
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery > div {
+    padding: 5px;
+}
+
+#gallery > div:nth-child(2) {
+    flex-grow: 1;
+}
+
 #gallery img {
     width: 150px;
 }
