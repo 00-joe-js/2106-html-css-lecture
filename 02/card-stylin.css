@@ -2,42 +2,65 @@
     box-sizing: border-box;
 }
 
+html,
 body {
-    background: blanchedalmond;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 24000px;
+    font-size: 24px;
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #ccc;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #business-card {
+    background: white;
     border: 2px solid black;
-    padding: 20px;
-    width: 500px;
-    position: relative;
-    position: fixed;
-    top: 100px;
-    left: 100px;
+    padding: 30px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: black 9px 10px 5px 1px;
 }
 
-h1 {
-    color: red;
-    position: relative;
-    top: 50px;
-    left: 120px;
+#left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.important-text {
-    color: green;
+#top-text-container h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#top-text-container h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+#phone-number {
+    margin: 0;
+}
+
+#right-side {
+    display: flex;
+    align-items: center;
 }
 
 img {
     padding: 10px;
     background: plum;
-    border: 2px dashed black;
     margin-left: 10px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 75px;
+    width: 250px;
 }
 
 @media (max-width: 480px) {
