@@ -62,19 +62,3 @@ img {
     margin-left: 10px;
     width: 250px;
 }
-
-@media (max-width: 480px) {
-    #business-card {
-        background: blue;
-    }
-}
-
-@media (max-width: 720px) {
-    #business-card {
-        background: red;
-    }
-}
-
-/* .important-text {
-    background: purple;
-} */
